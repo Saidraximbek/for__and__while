@@ -228,14 +228,18 @@
 
 // While1. A va B butun musbat sonlari berilgan (A> B). A usunlikdagi kesmada maksimal darajada B kesma joylashtirilgan.
 // A kesmaning bo'sh qismini aniqlovchi programma tuzilsin. Ko'paytirish va bo'lish amallarini ishlatmang.
-// let A = 15;
-// let B= 5;
-// let result = 0;
+// let A = 150;
+// let B= 0;
 // while (A>B){
-//     result = A-B;
-//     B=B+0
+//     if (B=A-1) {
+//         console.log(`Aning qolgan Qismi doimo 1 bo'ladi. Chunki A kesmada B kesma maximal joylashtirilgan. A=${A} B=${B}`);
+        
+//         break
+//     }
+    
+//     B++
 // }
-// console.log(result);
+
 
 // While2. A va B butun musbat sonlari berilgan (A > B). A usunlikdagi kesmada B kesmadan nechta joylashtirish mumkinligini aniqlovchi programma tuzilsin.
 // Ko'paytirish va bo'lish amallarini ishlatmang.
